@@ -3,25 +3,143 @@ proxies:
   name: 0|-https://t.me/MrXbin-1
   password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
-  server: 45.87.175.181
+  server: 45.87.175.188
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-2
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.188
   type: ss
 - cipher: aes-256-gcm
   name: 0|-https://t.me/MrXbin-3
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 23.157.40.113
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-4
   password: faBAoD54k87UJG7
   port: 2375
   server: 69.50.92.99
   type: ss
-- cipher: rc4-md5
+- cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-5
-  password: 14fFPrbezE3HDZzsMOr6
+  password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
-  server: 107.155.57.51
+  server: 45.87.175.164
   type: ss
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-6
-  password: amazonskr05
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.192
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-7
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.192
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-9
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.157
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-10
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.178
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-13
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.181
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-14
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 23.157.40.113
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-16
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.188
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-21
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.178
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-26
+  password: Y6R9pAtvxxzmGC
+  port: 9090
+  server: 169.197.141.84
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-30
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 169.197.141.84
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-31
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 38.75.136.117
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-32
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 69.50.92.99
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-33
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.181
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-34
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 38.75.136.117
+  type: ss
+- cipher: aes-128-gcm
+  name: 0|-https://t.me/MrXbin-35
+  password: shadowsocks
   port: 443
-  server: 54.187.244.22
+  server: 149.22.95.183
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-38
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 69.50.92.99
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-40
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 69.50.92.99
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-42
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.192
   type: ss
 - cipher: aes-128-gcm
   name: 0,13|🇺🇸 美国3|@ripaojiedian
@@ -30,187 +148,63 @@ proxies:
   server: 156.146.38.168
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-9
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.75.136.117
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-10
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)b5a99e1:21612
-    mode: tls
-  port: 2377
-  server: 211.22.161.135
-  type: ss
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-14
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 38.75.136.117
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-19
-  password: 5cp9Z3iWnJZ2
-  port: 443
-  server: 205.134.180.150
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-20
-  password: p7EhC8MR7o7GuRn27YF8SQNAKJ2lUbBNIjcyqSmBHsy8wLbJ
-  port: 51348
-  server: 159.65.149.72
-  type: ss
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-25
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 23.157.40.113
-  type: ss
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-28
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 69.50.92.99
-  type: ss
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-29
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 69.50.92.99
-  type: ss
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-32
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 169.197.141.84
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-33
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.178
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-34
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.192
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-36
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.192
-  type: ss
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-37
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 69.50.92.99
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-38
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-39
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.178
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-40
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.192
-  type: ss
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-41
-  password: Y6R9pAtvxxzmGC
-  port: 9090
-  server: 169.197.141.84
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-42
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-43
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 23.157.40.113
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-128-gcm
   name: 0|-https://t.me/MrXbin-44
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.157
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.243
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-45
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.181
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-46
-  password: 4a2rfixophdjffa8KVA4Aa
+  password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
   server: 45.87.175.157
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-47
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-48
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.164
-  type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-50
+  name: 0|-https://t.me/MrXbin-47
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- alterId: 0
+- alterId: 1
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-63
+  name: 0|-https://t.me/MrXbin-62
   network: ws
   port: 443
-  server: 172.67.175.56
+  server: 149.7.16.194
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
+    path: /linkvws
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-64
+  name: 0|-https://t.me/MrXbin-67
+  network: ws
+  port: 443
+  server: speedtest.net
+  servername: mehrjavan.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
+  ws-opts:
+    headers:
+      Host: mehrjavan.ir
+    path: /m28jcoZZUhkqg6pk11
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-68
   network: ws
   port: 443
   server: 188.114.96.3
@@ -222,25 +216,27 @@ proxies:
     headers:
       Host: obdii.cfd
     path: /linkws
-- alterId: 1
+- alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-66
+  name: 0|-https://t.me/MrXbin-76
   network: ws
   port: 443
-  server: 149.7.16.194
+  server: obdii.cfd
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
-    path: /linkvws
+    headers:
+      Host: obdii.cfd
+    path: /linkws
 - alterId: 1
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-67
+  name: 0|-https://t.me/MrXbin-77
   network: ws
   port: 443
   server: 38.75.137.121
@@ -258,7 +254,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-68
+  name: 0|-https://t.me/MrXbin-78
   network: ws
   port: 443
   server: 185.146.173.59
@@ -275,7 +271,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-69
+  name: 0|-https://t.me/MrXbin-80
   network: ws
   port: 443
   server: 188.114.97.2
@@ -289,55 +285,22 @@ proxies:
     headers:
       Host: obdii.cfd
     path: /linkws
-- alterId: 1
+- alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-71
+  name: 0|-https://t.me/MrXbin-84
   network: ws
   port: 443
-  server: 23.158.56.39
-  skip-cert-verify: true
+  server: discord.vpnsell.beauty
   tls: true
   type: vmess
   udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 57529232-b316-4b4e-abf1-9b6063ba0316
   ws-opts:
     headers:
-      Host: 23.158.56.39
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-72
-  network: ws
-  port: 2082
-  server: 172.64.194.76
-  servername: ip18.6929198.xyz
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-73
-  network: ws
-  port: 2095
-  server: 172.64.166.22
-  servername: ip20.6016725.xyz
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
+      Host: discord.vpnsell.beauty
+    path: /29516/iliya
 - alterId: 0
   cipher: auto
   name: '3,4,5|d*********g.com_0 #2'
