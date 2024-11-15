@@ -1,12 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 13|🇰🇷 韩国|@ripaojiedian
-  password: 7a2f5570-f469-4549-9273-549a5c85fb52
-  port: 39202
-  server: hzhz1.sssyun.xyz
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -23,7 +15,7 @@ proxies:
   name: 13|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.35.137.32
+  server: 43.201.72.28
   tfo: false
   type: ss
 - alterId: 0
@@ -36,17 +28,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 37a9e3d4-08b2-4a54-92ad-e9dce926657d
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0019
-  network: ws
-  port: 14985
-  server: 61.81.181.169
-  servername: lp.kpcloud.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lp.kpcloud.eu.org
-    path: /?ed=2560
