@@ -18,13 +18,20 @@ proxies:
   server: 52.77.236.51
   tfo: false
   type: ss
+- name: 14|韩国|@ripaojiedian
+  network: tcp
+  password: QwwHvrnN
+  port: 36900
+  server: 36.151.192.198
+  skip-cert-verify: true
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 14|韩国|@ripaojiedian
+  name: 14|韩国2|@ripaojiedian
   network: tcp
-  port: '36223'
-  server: 45.94.68.206
+  port: '34103'
+  server: 45.94.68.179
   servername: ''
   tls: false
   type: vmess
-  uuid: 1c327622-a059-4131-b9da-a457e9792a01
+  uuid: f083427f-9d8b-4863-b4a5-fc15255547d2
