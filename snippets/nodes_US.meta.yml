@@ -2,21 +2,13 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 13|🇺🇸 美国4|@ripaojiedian
-  port: 52112
-  server: 183.236.51.23
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 14|美国|@ripaojiedian
+  name: 13,14|美国|@ripaojiedian
   network: ws
   port: '38007'
   server: 142.4.108.140
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
