@@ -92,11 +92,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 14|香港9|@ripaojiedian
-  network: tcp
-  password: 728A9437-AF3A-42C1-C1C8-0C87337E119C
-  port: 14404
-  server: bepgzbgp01.114837322.xyz
-  skip-cert-verify: true
-  sni: mpvideo.qpic.cn
-  type: trojan
