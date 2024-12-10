@@ -23,3 +23,17 @@ proxies:
   server: 43.201.31.40
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 14|韩国|@ripaojiedian
+  network: ws
+  port: '30000'
+  server: 107.167.30.126
+  servername: www.83645422.xyz
+  tls: true
+  type: vmess
+  uuid: 57f93e92-ebb9-4f16-9bdc-8225d2010995
+  ws-opts:
+    headers:
+      Host: www.83645422.xyz
+    path: /path/240811062813
