@@ -23,3 +23,11 @@ proxies:
   skip-cert-verify: false
   sni: jpcn2.doubledou.icu
   type: trojan
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 13|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.203.127.152
+  tfo: false
+  type: ss
