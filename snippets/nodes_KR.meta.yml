@@ -2,11 +2,10 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 13,14|韩国|@ripaojiedian
+  name: 13|🇰🇷 韩国|@ripaojiedian
   network: ws
-  port: '25770'
+  port: 25770
   server: pppasdfjetyj.461553.best
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -24,3 +23,10 @@ proxies:
   server: 13.229.117.61
   tfo: false
   type: ss
+- name: 14|韩国|@ripaojiedian
+  network: tcp
+  password: e279c494-c426-443a-a034-a04516409242
+  port: 13036
+  server: naiu-other.05vr9nyqg5.download
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan

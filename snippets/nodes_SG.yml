@@ -23,3 +23,13 @@ proxies:
   server: 18.143.147.45
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '14|新加坡|@ripaojiedian #1'
+  network: tcp
+  port: '53896'
+  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2865a8a3-b9fe-4056-8378-5a03f2d4595e
