@@ -1,4 +1,15 @@
 proxies:
+- auth: c1adf07f-6d50-45c1-9076-4f3b7093ab2e
+  down: 1000
+  name: 0|🇰🇷1 |  6.5MB/s
+  password: c1adf07f-6d50-45c1-9076-4f3b7093ab2e
+  port: 30001
+  server: oracle-arm-seoul1.lanmaoyun.icu
+  skip-cert-verify: true
+  sni: korea.nodes.lanmaoyun.icu
+  type: hysteria2
+  udp: true
+  up: 100
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 13|🇰🇷 韩国特殊|@ripaojiedian
