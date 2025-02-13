@@ -1,26 +1,13 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- cipher: rc4-md5
   client-fingerprint: chrome
-  name: 0|🇹🇼1 |  5.9MB/s
-  network: tcp
-  port: 31142
-  server: 510613.frederica.xyz
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 0|🇹🇼2 |  2.0MB/s
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21138
-  server: 581023.horace.im
+  name: 0|🇹🇼2 |  6.0MB/s
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3026
+  server: pr3.jymzffbquawl.com
   type: ss
-- client-fingerprint: chrome
-  name: 13,14|台湾|@ripaojiedian
-  network: tcp
-  password: 069a7054-7269-554b-bfab-a7f2651f92e5
-  port: 5302
-  server: dozo01.flztjc.top
-  skip-cert-verify: false
-  sni: tw-2-545.flztjc.net
-  type: trojan
+  udp: true
