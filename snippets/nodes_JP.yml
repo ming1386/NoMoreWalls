@@ -1,47 +1,48 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 0|🇯🇵1 |  6.2MB/s
+  client-fingerprint: chrome
+  name: 0|🇯🇵1 |  3.5MB/s
   password: amazonskr05
   port: 443
-  server: 13.115.39.161
+  server: 13.231.248.146
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇯🇵2 |  10.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.95.50.167
-  type: ss
-- name: 0|🇯🇵3 |  6.0MB/s
-  password: e38898d1-4220-3f6f-bfd0-e095beb64d3b
-  port: 20076
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x76.flybar.work
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇯🇵4 |  4.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.202.60.105
-  type: ss
-- name: 0|🇯🇵5 |  3.1MB/s
-  password: e38898d1-4220-3f6f-bfd0-e095beb64d3b
-  port: 54178
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x115.flybar.work
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇯🇵6 |  1.8MB/s
+  name: 0|🇯🇵2 |  4.1MB/s
   password: amazonskr05
   port: 443
   server: 18.179.112.66
   type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇯🇵3 |  4.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.112.1.164
+  type: ss
+- name: 0|🇯🇵4 |  2.5MB/s
+  password: e38898d1-4220-3f6f-bfd0-e095beb64d3b
+  port: 20071
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x71.flybar.work
+  type: trojan
+  udp: true
+- name: 0|🇯🇵5 |  1.5MB/s
+  password: '!!str 3778399737045327872'
+  port: 443
+  server: patient-trout.adder289.quest
+  skip-cert-verify: true
+  sni: patient-trout.adder289.quest
+  type: trojan
+- name: 0|🇯🇵7 |  5.9MB/s
+  password: e38898d1-4220-3f6f-bfd0-e095beb64d3b
+  port: 20139
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z139.hongkongnode.top
+  type: trojan
   udp: true
 - alterId: 0
   cipher: auto

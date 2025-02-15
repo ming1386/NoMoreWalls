@@ -1,18 +1,25 @@
 proxies:
+- name: 0|🇸🇬1 |  1.4MB/s
+  password: '!!str 3778399737045327872'
+  port: 443
+  server: flying-tuna.treefrog761.one
+  skip-cert-verify: true
+  sni: flying-tuna.treefrog761.one
+  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇸🇬1 |  6.0MB/s
+  name: 0|🇸🇬2 |  6.1MB/s
   password: amazonskr05
   port: 443
-  server: 13.229.111.3
+  server: 13.250.55.231
   type: ss
   udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇸🇬2 |  3.8MB/s
+  name: 0|🇸🇬3 |  4.3MB/s
   password: amazonskr05
   port: 443
-  server: 13.250.55.231
+  server: 13.229.111.3
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
