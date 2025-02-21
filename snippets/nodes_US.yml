@@ -1,83 +1,13 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 0|🇺🇸1 |  6.0MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 023a7866-d7ad-3de7-9d25-4213fb251014
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|🇺🇸4 |  2.4MB/s
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 0|🇺🇸5 |  2.8MB/s
-  network: ws
-  port: 23618
-  server: 18.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 023a7866-d7ad-3de7-9d25-4213fb251014
-  ws-opts:
-    headers:
-      Host: 18.mamamajd.site
-    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇺🇸10 |  1.7MB/s
+  name: 0|🇺🇸2 |  4.5MB/s
   password: amazonskr05
   port: 443
   server: 18.237.113.248
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇺🇸11 |  1.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.195.215.236
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 0|🇺🇸12 |  4.7MB/s
-  network: ws
-  port: 23616
-  server: 16.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 023a7866-d7ad-3de7-9d25-4213fb251014
-  ws-opts:
-    headers:
-      Host: 16.mamamajd.site
-    path: /
 - client-fingerprint: chrome
-  name: 13,14|美国|@ripaojiedian
+  name: 0,13,14|美国|@ripaojiedian
   network: tcp
   password: 65f14831-5c67-483f-9e85-f3aa73f21187
   port: 13019
@@ -85,6 +15,61 @@ proxies:
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
+- name: 0|🇺🇸5 |  14.3MB/s
+  password: 5c7bdb27-b331-36cb-9ed2-5da2ddd886a9
+  port: 20307
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z307.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇺🇸6 |  1.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.41.168.231
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸7 |  2.2MB/s
+  password: 47618dba-a621-4602-82c2-38f09ab02e99
+  port: 36641
+  server: free.2weradf.xyz
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 0|🇺🇸9 |  5.3MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 83ee55e8-a444-39ee-9823-9e3f04bba063
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  h2-opts: {}
+  http-opts: {}
+  name: 0|🇺🇸11 |  3.4MB/s
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 13|🇺🇸 美国4|@ripaojiedian

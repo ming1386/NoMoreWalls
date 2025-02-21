@@ -1,72 +1,99 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 0|🇺🇸1 |  6.0MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
+- auth: 334c4713-73ea-4e71-b827-21a22d31736b
+  name: 0|🇺🇸1 |  3.2MB/s
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 23903
+  server: us1.xiaoliyu.cyou
   skip-cert-verify: true
+  sni: us1.xiaoliyu.cyou
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 0|🇺🇸2 |  4.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.237.113.248
+  type: ss
+- name: 0|🇺🇸3 |  1.6MB/s
+  network: ws
+  port: 80
+  server: 104.16.38.178
+  skip-cert-verify: false
   tls: false
-  type: vmess
-  udp: true
-  uuid: 023a7866-d7ad-3de7-9d25-4213fb251014
+  type: vless
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
   ws-opts:
     headers:
-      Host: 17.mamamajd.site
+      Host: pormang.webhost99.workers.dev
     path: /
+- name: 0,13,14|美国|@ripaojiedian
+  network: tcp
+  password: 65f14831-5c67-483f-9e85-f3aa73f21187
+  port: 13019
+  server: naiu-us.05vr9nyqg5.download
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- alterId: '0'
+  cipher: auto
+  name: 0|🇦🇺1 |  3.7MB/s
+  network: tcp
+  port: 59104
+  server: 183.236.51.38
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
-  name: 0|🇯🇵1 |  5.8MB/s
+  name: 0,13|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.124.66.120
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 0,13|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 18.182.6.88
+  tfo: false
   type: ss
-- auth: 334c4713-73ea-4e71-b827-21a22d31736b
-  name: 0|🇺🇸2 |  2.7MB/s
-  password: 334c4713-73ea-4e71-b827-21a22d31736b
-  port: 23014
-  server: us2.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: us2.xiaoliyu.cyou
-  type: hysteria2
-- auth: 334c4713-73ea-4e71-b827-21a22d31736b
-  name: 0|🇺🇸3 |  3.5MB/s
-  password: 334c4713-73ea-4e71-b827-21a22d31736b
-  port: 25146
-  server: br1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: br1.xiaoliyu.cyou
-  type: hysteria2
-- name: 0|🇯🇵2 |  3.2MB/s
-  password: 6f859133-249c-313f-a2fa-7d99c54ed0af
-  port: 54178
+- cipher: aes-256-cfb
+  name: 0|🇯🇵2 |  6.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.197.129.53
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇯🇵3 |  3.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.114.96.104
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇯🇵4 |  3.7MB/s
+  password: 2afbc97400ca71c8f3306f9843a6e1c2
+  port: 443
+  server: south-korea-2.keenvpn.me
+  type: ss
+- name: 0|🇺🇸5 |  14.3MB/s
+  password: 5c7bdb27-b331-36cb-9ed2-5da2ddd886a9
+  port: 20307
   server: gy.58n.net
   skip-cert-verify: true
-  sni: x115.flybar.work
-  tfo: true
+  sni: z307.hongkongnode.top
   type: trojan
   udp: true
-- cipher: chacha20-ietf
-  name: 0|🌏1 |  2.1MB/s
-  password: asd123456
-  port: 8388
-  server: 103.36.90.195
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇦🇺2 |  5.5MB/s
+  password: 47618dba-a621-4602-82c2-38f09ab02e99
+  port: 36245
+  server: free.2weradf.xyz
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 0|🇺🇸4 |  2.4MB/s
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
+- cipher: aes-256-cfb
+  name: 0|🇸🇬1 |  2.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.213.40.92
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   name: 0|🌀1- |  2.5MB/s
@@ -77,170 +104,99 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 023a7866-d7ad-3de7-9d25-4213fb251014
+  uuid: 83ee55e8-a444-39ee-9823-9e3f04bba063
   ws-opts:
     headers:
       Host: 12.mamamajd.site
     path: /
+- cipher: aes-256-cfb
+  name: 0|🇺🇸6 |  1.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.41.168.231
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵3 |  1.5MB/s
-  password: 13fc0e3c-9262-4c03-894c-36e4bb08b7f0
-  port: 36113
+  name: 0|🇺🇸7 |  2.2MB/s
+  password: 47618dba-a621-4602-82c2-38f09ab02e99
+  port: 36641
   server: free.2weradf.xyz
   type: ss
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 0|🇭🇰1 |  6.1MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 84.17.53.160
-  tls: false
-  type: ss
-  udp: true
 - auth: 334c4713-73ea-4e71-b827-21a22d31736b
-  name: 0|🇦🇺1 |  3.2MB/s
+  name: 0|🇺🇸8 |  1.3MB/s
   password: 334c4713-73ea-4e71-b827-21a22d31736b
-  port: 23608
-  server: de1.xiaoliyu.cyou
+  port: 22305
+  server: sg5.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: de1.xiaoliyu.cyou
+  sni: sg5.xiaoliyu.cyou
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 0|🇺🇸5 |  2.8MB/s
+  name: 0|🇺🇸9 |  5.3MB/s
   network: ws
-  port: 23618
-  server: 18.mamamajd.site
+  port: 23617
+  server: 17.mamamajd.site
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 023a7866-d7ad-3de7-9d25-4213fb251014
+  uuid: 83ee55e8-a444-39ee-9823-9e3f04bba063
   ws-opts:
     headers:
-      Host: 18.mamamajd.site
+      Host: 17.mamamajd.site
     path: /
-- auth: 82c01da0-59b7-48f2-8a24-58e7e5e1d8e3
-  name: 0|🇺🇸6 |  15.7MB/s
-  password: 82c01da0-59b7-48f2-8a24-58e7e5e1d8e3
-  port: 23205
-  server: fr2.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: fr2.xiaoliyu.cyou
-  type: hysteria2
 - auth: 334c4713-73ea-4e71-b827-21a22d31736b
-  name: 0|🇩🇪1 |  4.6MB/s
+  name: 0|🇺🇸10 |  1.7MB/s
   password: 334c4713-73ea-4e71-b827-21a22d31736b
-  port: 23746
-  server: de2.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: de2.xiaoliyu.cyou
-  type: hysteria2
-- name: 0|🇺🇸7 |  4.1MB/s
-  network: ws
-  port: 80
-  server: 172.67.75.172
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /
-- auth: 82c01da0-59b7-48f2-8a24-58e7e5e1d8e3
-  name: 0|🇺🇸8 |  1.5MB/s
-  password: 82c01da0-59b7-48f2-8a24-58e7e5e1d8e3
-  port: 22831
+  port: 26977
   server: us1.xiaoliyu.cyou
   skip-cert-verify: true
   sni: us1.xiaoliyu.cyou
   type: hysteria2
-- down: 100
-  name: 0|🇺🇸9 |  5.9MB/s
-  password: 4a48871d49c3f20fd93d365c49e45f78
-  port: 443
-  server: v.mch.vaala.cat
-  sni: v.mch.vaala.cat
-  type: hysteria2
-  up: 100
 - cipher: aes-256-cfb
-  name: 0|🇸🇬1 |  2.7MB/s
+  name: 0|🇯🇵5 |  6.1MB/s
   password: amazonskr05
   port: 443
-  server: 18.141.9.206
+  server: 43.206.216.94
   type: ss
-  udp: true
-- name: 0|🌀2- |  2.7MB/s
-  password: 6f859133-249c-313f-a2fa-7d99c54ed0af
-  port: 41767
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x114.flybar.work
-  tfo: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|🇺🇸10 |  1.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.237.113.248
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇺🇸11 |  1.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.195.215.236
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|🇰🇷1 |  2.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.124.66.120
-  type: ss
-- name: 0|🇭🇰2 |  1.9MB/s
-  network: tcp
-  port: 37528
-  reality-opts:
-    public-key: qBPL3e2Cip0uRxcfXzQ-BNRJep8womQRzupBMojAGH8
-    short-id: 937cf95f39945af1
-  server: 47.79.37.56
-  servername: yahoo.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: ee649780-6a77-4125-9edd-b7e72aa86efe
 - alterId: 2
   cipher: auto
-  name: 0|🇺🇸12 |  4.7MB/s
+  name: 0|🌀2- |  5.2MB/s
   network: ws
-  port: 23616
-  server: 16.mamamajd.site
+  port: 23615
+  server: 15.mamamajd.site
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 023a7866-d7ad-3de7-9d25-4213fb251014
+  uuid: 83ee55e8-a444-39ee-9823-9e3f04bba063
   ws-opts:
     headers:
-      Host: 16.mamamajd.site
+      Host: 15.mamamajd.site
     path: /
-- delay: 2905
-  name: 0|🇺🇸13 |  3.1MB/s
+- alterId: 2
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|🇺🇸11 |  3.4MB/s
   network: ws
-  port: 2052
-  server: 104.26.12.101
-  servername: Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
   skip-cert-verify: true
-  type: vless
+  tls: true
+  type: vmess
   udp: true
-  uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt
-    path: /?ed=1080/telegram
+      Host: zxjp-b.tkong.cc
+    path: /
+- cipher: aes-256-cfb
+  name: 0|🇯🇵6 |  3.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.112.245.114
+  type: ss
 - name: '7,12|@vpnv2rayNGv #3'
   obfs: salamander
   obfs-password: KevinZakarian
@@ -448,18 +404,11 @@ proxies:
   server: 156.245.190.23
   tfo: false
   type: ss
-- cipher: chacha20-ietf
+- cipher: chacha20-ietf-poly1305
   name: 13|🇭🇰 香港4|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 194.41.59.80
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: 13|🇭🇰 香港5|@ripaojiedian
-  password: 2MNBVYYYB23ZF03Z
-  port: 15002
-  server: 92.113.116.11
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40000
+  server: hk.fastsoonlink.com
   tfo: false
   type: ss
 - name: 13,14|台湾|@ripaojiedian
@@ -472,47 +421,46 @@ proxies:
   type: trojan
 - cipher: aes-256-gcm
   name: 13|🇹🇼 台湾2|@ripaojiedian
-  password: c1JpS2F6dHRDQWl3UTl0VVRoZU5YOFRraGlDellJV3M=
-  port: 37310
-  server: tengx.wwwq.net
+  password: QF377GGQ00RATCMK
+  port: 21004
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: 13|🇹🇼 台湾3|@ripaojiedian
+  password: Y2U58S90E3GST1AQ
+  port: 21001
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: 13|🇹🇼 台湾4|@ripaojiedian
+  password: HQJQFA7U2Z5HGZWH
+  port: 21003
+  server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   name: 13|🇯🇵 日本|@ripaojiedian
-  password: 4OAKJ8CASERAWXI1
-  port: 18013
-  server: 156.231.104.23
+  password: 17J24GBDGLTUHDF3
+  port: 18011
+  server: 156.231.104.21
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   name: 13|🇯🇵 日本2|@ripaojiedian
-  password: PGF2TGUCHQBC5IP5
-  port: 18016
-  server: 156.231.104.26
+  password: 1H5KX5QZBUOWP2P4
+  port: 18007
+  server: 156.231.104.17
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  name: 13|🇯🇵 日本3|@ripaojiedian
-  password: 53RIUQDZR3B23TA3
-  port: 18008
-  server: 156.231.104.18
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
   name: 13|🇰🇷 韩国|@ripaojiedian
-  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
-  port: 40032
-  server: kr.fastsoonlink.com
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.90.62.168
   tfo: false
   type: ss
-- name: 13,14|韩国3|@ripaojiedian
-  network: tcp
-  password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
-  port: 51075
-  server: lm.kaiqsz.com
-  skip-cert-verify: true
-  sni: mmbiz10.redapricotcloud.com
-  type: trojan
 - cipher: aes-256-gcm
   name: 13|🇸🇬 新加坡|@ripaojiedian
   password: 2UOL8ESS12X0J31P
@@ -534,11 +482,11 @@ proxies:
   server: 103.106.229.219
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   name: 13|🇸🇬 新加坡4|@ripaojiedian
-  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
-  port: 40005
-  server: sgp.fastsoonlink.com
+  password: I6DRVVQ4OOMIRMJD
+  port: 16015
+  server: 154.196.244.25
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -548,14 +496,6 @@ proxies:
   server: 154.196.244.26
   tfo: false
   type: ss
-- name: 13,14|美国|@ripaojiedian
-  network: tcp
-  password: 65f14831-5c67-483f-9e85-f3aa73f21187
-  port: 13019
-  server: naiu-us.05vr9nyqg5.download
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国4|@ripaojiedian
   password: LKG8G8VL60RSB59P
@@ -574,26 +514,20 @@ proxies:
   type: vmess
   uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
 - cipher: aes-256-cfb
-  name: 13|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.39.249.88
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 13|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.125.111.28
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
   name: 13|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.180.133.38
+  server: 13.114.153.253
   tfo: false
   type: ss
+- name: 14|韩国3|@ripaojiedian
+  network: tcp
+  password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
+  port: 51075
+  server: lm.kaiqsz.com
+  skip-cert-verify: true
+  sni: mmbiz10.redapricotcloud.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 14|美国3|@ripaojiedian

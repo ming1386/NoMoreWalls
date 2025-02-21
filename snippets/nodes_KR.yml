@@ -1,21 +1,21 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇰🇷1 |  2.0MB/s
+  name: 0,13|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.124.66.120
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 13|🇰🇷 韩国|@ripaojiedian
-  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
-  port: 40032
-  server: kr.fastsoonlink.com
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 13,14|韩国3|@ripaojiedian
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 13|🇰🇷 韩国|@ripaojiedian
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.90.62.168
+  tfo: false
+  type: ss
+- name: 14|韩国3|@ripaojiedian
   network: tcp
   password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
   port: 51075
@@ -23,11 +23,3 @@ proxies:
   skip-cert-verify: true
   sni: mmbiz10.redapricotcloud.com
   type: trojan
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 13|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.39.249.88
-  tfo: false
-  type: ss
