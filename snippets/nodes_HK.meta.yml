@@ -1,10 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
   delay: 1036
   h2-opts: {}
   http-opts: {}
-  name: 0|🇭🇰1 |  2.3MB/s
+  name: 0|🇭🇰1 |  5.9MB/s
   network: tcp
   port: 48889
   server: gy.youaremygod.top
