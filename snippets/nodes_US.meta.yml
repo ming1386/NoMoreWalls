@@ -1,55 +1,34 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸1 |  5.8MB/s
+  name: 0|🇺🇸1 |  11.4MB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 84858fa.vpnhat.t.me:73643
     mode: tls
   port: 2377
-  server: 84858fa.d3.gladns.com
+  server: 84858fa.m8.gladns.com
   type: ss
-- name: 0|🇺🇸2 |  3.1MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: usgp3-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: usgp3-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: chrome
-  name: 0|🇺🇸3 |  5.2MB/s
-  network: ws
-  port: 2052
-  server: 156.238.18.165
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-- name: 0|🇺🇸5 |  1.6MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: chacha20-ietf
-  name: 0|🇺🇸6 |  1.1MB/s
-  password: asd123456
-  port: 8388
-  server: 137.175.113.193
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸2 |  4.1MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 84858fa.vpnhat.t.me:73643
+    mode: tls
+  port: 2377
+  server: 84858fa.u6.gladns.com
   type: ss
-- name: 0|🇺🇸7 |  1.2MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸3 |  1.3MB/s
+  password: b1659b9a-fcbe-457d-a52f-8796849fc392
+  port: 36411
+  server: free.2weradf.xyz
+  type: ss
+- name: 0|🇺🇸4 |  4.9MB/s
   network: ws
   port: 443
-  server: wilson.ns.cloudflare.com
+  server: www.hugedomains.com
   servername: s5.ylkszy.eu.org
   skip-cert-verify: true
   tls: true
@@ -60,16 +39,8 @@ proxies:
     headers:
       Host: s5.ylkszy.eu.org
     path: /?ed=2560
-- name: 0|🇺🇸8 |  5.6MB/s
-  password: b2f95c69-59cd-3da9-8977-d8474b0e12d8
-  port: 20305
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z305.hongkongnode.top
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸9 |  5.7MB/s
+  name: 0|🇺🇸5 |  6.1MB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -78,29 +49,81 @@ proxies:
   port: 2377
   server: 84858fa.f2.gladns.com
   type: ss
-- name: 0|🇺🇸10 |  1.6MB/s
-  network: ws
+- name: 0|🇺🇸6 |  2.5MB/s
+  obfs: salamander
+  obfs-password: cd29099d
+  password: 9bb452b106ffc217
   port: 443
-  server: 198.62.62.4
-  servername: s5.ylkszy.eu.org
+  server: 207.148.22.93
   skip-cert-verify: true
-  tls: true
+  sni: vkvd127.mycdn.me
+  type: hysteria2
+  udp: true
+- name: 0|🇺🇸7 |  3.2MB/s
+  obfs: salamander
+  obfs-password: 4b817757
+  password: 1f17cdf0578a2860
+  port: 443
+  server: 45.76.0.86
+  skip-cert-verify: true
+  sni: 45.76.0.86
+  type: hysteria2
+  udp: true
+- name: 0,15|US_speednode_0056
+  network: ws
+  port: 80
+  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
+  servername: Join--E-L-i-V-2-R-A-Y.net
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: s5.ylkszy.eu.org
-    path: /?ed=2560
-- name: 0|🇺🇸11 |  6.0MB/s
-  password: myszy28811
-  port: 28811
-  server: pipi.myddns.me
-  type: socks5
+      Host: Join--E-L-i-V-2-R-A-Y.net
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
+- alterId: 2
+  cipher: auto
+  name: 0|🇺🇸9 |  1.7MB/s
+  network: ws
+  port: 23615
+  server: 15.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-  username: myszy
+  uuid: 791f8e17-0f1a-3748-a08d-16375fd33b5b
+  ws-opts:
+    headers:
+      Host: 15.mamamajd.site
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸10 |  4.7MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 84858fa.vpnhat.t.me:73643
+    mode: tls
+  port: 2377
+  server: 84858fa.u1.gladns.com
+  type: ss
 - client-fingerprint: chrome
-  name: 0|🇺🇸12 |  2.3MB/s
+  delay: 2559
+  name: 0|🇺🇸11 |  5.4MB/s
+  network: ws
+  port: 80
+  server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
+  servername: Join--E-L-i-V-2-R-A-Y.net
+  tls: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: Join--E-L-i-V-2-R-A-Y.net
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
+- client-fingerprint: chrome
+  name: 0|🇺🇸12 |  3.5MB/s
   network: ws
   port: 2095
   server: 156.238.18.163
@@ -123,20 +146,6 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 2.hublink.pro
   type: ssr
-- name: 15|US_speednode_0056
-  network: ws
-  port: 80
-  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
-  servername: Join--E-L-i-V-2-R-A-Y.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
 - name: 15|US_speednode_0064
   network: ws
   port: 80
