@@ -1,6 +1,12 @@
 proxies:
-- name: 0|🇬🇧1 |  4.9MB/s
-  password: f2595170-cb25-309e-8a13-dac38e08a10b
+- cipher: rc4-md5
+  name: 0|🇬🇧1 |  5.1MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.18
+  type: ss
+- name: 0|🇬🇧2 |  5.6MB/s
+  password: ea333f6c-3fe0-3a59-b23e-5383fb48fc73
   port: 25238
   server: gy.58n.net
   skip-cert-verify: true
