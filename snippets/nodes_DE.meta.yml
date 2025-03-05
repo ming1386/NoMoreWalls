@@ -1,32 +1,8 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|🇩🇪1 |  16.9MB/s
-  network: ws
-  port: 80
-  server: www.aetv.com
-  servername: amd.al
-  skip-cert-verify: true
-  type: vmess
-  uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
-  ws-opts:
-    headers:
-      HOST: amd.al
-      Host: www.aetv.com
-    path: /XESALISTHEBEST?ed=2048
-- alterId: 0
-  cipher: auto
-  ip-version: dual
-  name: 0|🇩🇪2 |  2.1MB/s
-  network: ws
-  port: 80
-  server: 151.101.66.168
-  type: vmess
+- name: 0|🇩🇪1 |  5.7MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
   udp: true
-  uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
-  ws-opts:
-    headers:
-      Host: amd.al
-    path: /XESALISTHEBEST?ed=2048
+  username: myszy
