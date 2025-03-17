@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 1316
+  name: 0|🇩🇪2 |  2.2MB/s
+  password: 7cbfe78195fbf19c
+  port: 11738
+  server: 100.42.182.73
+  type: ss
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 0|🇩🇪3 |  4.2MB/s
+  network: http
+  port: 10683
+  server: 91.107.241.36
+  tls: false
+  type: vmess
+  uuid: 42a6b3ff-9f36-4b1c-a0ea-82f2fd1472f9
