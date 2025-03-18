@@ -1,11 +1,78 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  country: 🏁ZZ
+  delay: 1796
+  name: 0|🇺🇸1 |  4.0MB/s
+  password: 56b18aab-9e83-4791-ab57-b349704fc176
+  port: 443
+  server: jp.tsapps.ru
+  type: ss
+- client-fingerprint: chrome
+  name: 0|🇺🇸2 |  5.6MB/s
+  password: ZI3OeTA9Clx3AFS78DejwENjaZAa3FSwSluxY3EOClyycDqyzpYD0a6DI2eS28q7X3NpC
+  port: 28334
+  server: aluminum.wireshop.net
+  sni: aluminum.wireshop.net
+  type: trojan
+- delay: 1154
+  name: 0|🇺🇸3 |  5.7MB/s
+  password: jnaO0CFYpYExOygqlESRplzewIaKSFpBaqXy3YX4xBC8KK9ja94Y4S8aS7zjq96XSxO7CDu5BCYFCZg
+  port: 443
+  server: lnitak.starspace.link
+  sni: lnitak.starspace.link
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  country: 🏁ZZ
+  delay: 1027
+  name: 0|🇺🇸4 |  4.2MB/s
+  password: 56b18aab-9e83-4791-ab57-b349704fc176
+  port: 443
+  server: hk.tsapps.ru
+  type: ss
+- delay: 818
+  name: 0|🇺🇸6 |  1.0MB/s
+  password: Yyjyl3Fwy6pSjTYSaCxg7Z0COIwBYxN38FwC3YBz44678OAypA87p2CEe53SaKel3pCDSZCZaeSaaZS
+  port: 28335
+  server: printer.wireshop.net
+  sni: printer.wireshop.net
+  type: trojan
+- client-fingerprint: chrome
+  name: 0|🇺🇸7 |  2.5MB/s
+  password: F7aCRp5cSNRqynagAa8IaX09TFRycpxllaXZeYzzpDeOa3CpXwwCS9awB7BNNeaqYY8aY9ASz8pZAZS
+  port: 443
+  server: tubular.wireshop.net
+  sni: tubular.wireshop.net
+  type: trojan
+- delay: 800
+  name: 0|🇺🇸8 |  1.7MB/s
+  password: 2OnySp6YC3SZcF32XACEjlD5aDOqx9SeR6yRFDwEXAu3Fc8w3Z3Y4AqZ0OSzlN8NCeYIA
+  port: 28333
+  server: bathtub.homeofbrave.net
+  sni: bathtub.homeofbrave.net
+  type: trojan
+- name: 0|🇺🇸10 |  5.4MB/s
+  password: f1b36be7-cdda-3596-b7d2-27de753b37a9
+  port: 20296
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z296.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇺🇸12 |  5.0MB/s
+  password: f1b36be7-cdda-3596-b7d2-27de753b37a9
+  port: 11215
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z268.hongkongnode.top
+  type: trojan
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 13|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
+    host: 202503170996717-wD0t0Kc8NT.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz
@@ -17,25 +84,18 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
+    host: 202503170996717-wD0t0Kc8NT.download.microsoft.com
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 13|🇺🇸 美国3|@ripaojiedian
-  password: E1SCB7Q1P7HFR8K8
-  port: 17005
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 13|🇺🇸 美国4|@ripaojiedian
-  password: 54SY1SP5HU73E00Z
-  port: 17001
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
+- client-fingerprint: chrome
+  name: 13,14|美国3|@ripaojiedian
+  network: tcp
+  password: 8cwxYqlSeC4Xw8KOApT3SxCIX69eZ7zBNZDE0Dap3y9AZTFBFlD5a2euA7A3YzR2DpSyI
+  port: 443
+  server: bedsheet.homeofbrave.net
+  skip-cert-verify: true
+  sni: bedsheet.homeofbrave.net
+  type: trojan
