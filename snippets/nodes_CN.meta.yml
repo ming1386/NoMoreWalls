@@ -1,13 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🌀3-CN |  3.2MB/s
-  network: ws
-  port: 21012
-  server: 212.192.13.110
-  tls: false
-  type: vmess
-  uuid: e7d13d87-86b4-4771-9b93-6782c20d01a5
-  ws-opts:
-    headers: {}
-    path: /
+proxies: []

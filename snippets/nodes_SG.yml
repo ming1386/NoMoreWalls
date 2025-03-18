@@ -1,60 +1,53 @@
 proxies:
+- delay: 1206
+  name: 0|🇸🇬1 |  1.7MB/s
+  password: ZYYSlSORYq6KXDCpCS3XC4zRnK73BDzIp0FaNynya9Dg5AEAeOgDaaFFO3e8w5NZ3Bexw
+  port: 443
+  server: handgun.protocolbuffer.com
+  sni: handgun.protocolbuffer.com
+  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  delay: 263
-  name: 0,13|tg频道:@ripaojiedian
+  country: 🇸🇬SG
+  delay: 598
+  name: 0,13|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.215.250.172
+  server: 54.151.230.240
   tfo: false
   type: ss
+- name: 0|🇸🇬3 |  1.5MB/s
+  password: 8jqRgpyc5lEe34TzC9A8DuFD23aS3ZyCleIFuCxp3xOYnZRCeA3Oc3yCga8C2DKYBDaRp
+  port: 443
+  server: 18.142.45.201
+  sni: mention.protocolbuffer.com
+  type: trojan
 - cipher: aes-256-cfb
   country: 🇸🇬SG
   delay: 657
-  name: 0|🇸🇬2 |  4.4MB/s
+  name: 0|🇸🇬4 |  2.2MB/s
   password: amazonskr05
   port: 443
   server: 54.179.179.201
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇸🇬3 |  4.4MB/s
+  country: 🇸🇬SG
+  delay: 273
+  name: 0,13|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 47.128.154.164
+  server: 18.141.138.125
   tfo: false
   type: ss
-- name: 0|🇸🇬4 |  4.8MB/s
-  password: f1b36be7-cdda-3596-b7d2-27de753b37a9
-  port: 20129
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x129.flybar.work
-  type: trojan
-  udp: true
-- name: 0|🇸🇬5 |  4.0MB/s
-  password: f1b36be7-cdda-3596-b7d2-27de753b37a9
-  port: 17806
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x65.flybar.work
-  type: trojan
-  udp: true
-- name: 0|🇸🇬6 |  5.6MB/s
-  password: f1b36be7-cdda-3596-b7d2-27de753b37a9
-  port: 30712
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x83.flybar.work
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  delay: 656
-  name: 0|🇸🇬7 |  2.9MB/s
+  country: 🇸🇬SG
+  delay: 554
+  name: 0,13|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.169.134.156
+  server: 13.229.233.60
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -94,14 +87,6 @@ proxies:
   skip-cert-verify: false
   sni: pricing.protocolbuffer.com
   type: trojan
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 13|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.151.230.240
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 14|新加坡2|@ripaojiedian
