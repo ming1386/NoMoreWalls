@@ -1,13 +1,25 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0|🇷🇺3 |  2.1MB/s
+  name: 0|🇷🇺2 |  2.2MB/s
   network: ws
   port: 22010
   server: 46.17.43.122
   tls: false
   type: vmess
-  uuid: ca016e6a-34f6-4cf9-b213-1c5a19c065a8
+  udp: true
+  uuid: abd7c11d-8e8c-48db-b813-ec26e15c9ed6
   ws-opts:
-    headers: {}
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇷🇺6 |  4.5MB/s
+  network: ws
+  port: 21013
+  server: 176.32.35.148
+  tls: false
+  type: vmess
+  udp: true
+  uuid: abd7c11d-8e8c-48db-b813-ec26e15c9ed6
+  ws-opts:
     path: /
