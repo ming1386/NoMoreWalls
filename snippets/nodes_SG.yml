@@ -1,41 +1,49 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 0|🇸🇬1 |  6.2MB/s
+  name: 0|🇸🇬1 |  6.1MB/s
   password: amazonskr05
   port: 443
-  server: 13.229.216.120
+  server: 54.169.103.201
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|🇸🇬2 |  6.2MB/s
-  password: ea28ec9e-a115-4bf6-9fe4-dc9dfcf3fe97
-  port: 37958
-  server: chiyu.myfczy169.top
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: 0|🇸🇬4 |  6.1MB/s
+  name: 0|🇸🇬2 |  6.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.179.97.253
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇸🇬3 |  3.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.212.5.197
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇸🇬5 |  2.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.212.61.224
+  type: ss
+- allowInsecure: '1'
+  name: 0|🇸🇬6 |  4.6MB/s
+  network: tcp
+  password: 86920f59-7e5e-4272-abec-271bb931121c
+  port: 443
+  server: 52.220.214.215
+  skip-cert-verify: true
+  sni: sg.lyyyds.club
+  tls: true
+  type: trojan
+- cipher: aes-256-cfb
+  name: 0|🇸🇬7 |  6.2MB/s
   password: amazonskr05
   port: 443
   server: 54.169.138.225
   type: ss
 - cipher: aes-256-cfb
-  name: 0|🇸🇬5 |  6.2MB/s
+  name: 0|🇸🇬10 |  6.2MB/s
   password: amazonskr05
   port: 443
-  server: 13.212.61.224
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇸🇬7 |  4.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.213.69.248
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇸🇬9 |  1.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.212.5.197
+  server: 13.229.216.120
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
