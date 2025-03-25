@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 0|🇰🇷1 |  6.0MB/s
+  name: 0|🇰🇷1 |  6.1MB/s
   password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
   port: 31778
   server: xm.miloli.cc
@@ -15,6 +15,6 @@ proxies:
   name: 13|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.195.175.110
+  server: 47.129.223.247
   tfo: false
   type: ss
