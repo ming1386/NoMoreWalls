@@ -1,15 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|🇰🇷1 |  6.1MB/s
-  password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
-  port: 31778
-  server: xm.miloli.cc
+- name: 0|🇰🇷1 |  5.5MB/s
+  password: fd5cd906-c72b-3e1c-8eba-11dfa31614df
+  port: 45168
+  server: gy.58n.net
   skip-cert-verify: true
-  sni: xm.miloli.cc
-  tls: true
-  type: ss
+  sni: z263.hongkongnode.top
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 13|🇰🇷 韩国特殊|@ripaojiedian

@@ -2,14 +2,14 @@ proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   mode: ''
-  name: 0|🇨🇭1 |  5.5MB/s
+  name: 0|🇨🇭1 |  5.4MB/s
   network: tcp
   port: 443
   reality-opts:
-    public-key: MtlJj0v2Axgz2zMTN7OzWacdA8rhB1r58PJXWL1sFTc
-    short-id: c8
-  server: m.hqmobin.ir
-  servername: www.latimes.com
+    public-key: OYpxmbJgwutqWEjdbXvag4te-vIqO2eDrmS93J1N7nA
+    short-id: 0d0943
+  server: b.hqmobin.ir
+  servername: www.speedtest.net
   tls: true
   type: vless
   udp: false
