@@ -1,34 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  mode: ''
-  name: 0|🇬🇧1 |  2.3MB/s
-  network: tcp
-  port: 8989
-  reality-opts:
-    public-key: TfbgQiZ2DOhCTDVLjx5Gwc5WHFSlQ_LXhyzKUEGR6mc
-    short-id: ''
-  server: 157.245.40.50
-  servername: refersion.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 409ef7ff-6449-4b9a-9db9-775927a1a925
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇬🇧2 |  5.2MB/s
-  network: tcp
-  port: 49699
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇬🇧3 |  5.3MB/s
+  name: 0|🇬🇧1 |  1.3MB/s
   network: tcp
   port: 14659
   reality-opts:
@@ -40,12 +13,36 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇬🇧4 |  5.2MB/s
+  name: 0|🇬🇧2 |  1.2MB/s
   network: tcp
   port: 65053
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: beiyong.dynuddns.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇬🇧3 |  4.8MB/s
+  network: tcp
+  port: 35311
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou02.mysynology.net
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇬🇧4 |  1.0MB/s
+  network: tcp
+  port: 47151
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou02.mysynology.net
   servername: www.amazon.com
   tls: true
   type: vless
