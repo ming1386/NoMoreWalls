@@ -1,355 +1,307 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 0|🇫🇷1 |  5.5MB/s
+  name: 0|🇩🇪1 |  5.0MB/s
   network: ws
-  port: 443
-  server: 104.21.94.64
-  servername: linja05.hwcar.sbs
-  skip-cert-verify: false
-  tls: true
+  port: 23616
+  server: 16.mamamajd.site
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
+  udp: true
+  uuid: 0a14d5c0-f566-314c-9e22-7db5655c35de
   ws-opts:
     headers:
-      Host: linja05.hwcar.sbs
-    path: /linkws
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇳🇱1 |  5.2MB/s
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-- name: 0|🇭🇰1 |  6.1MB/s
-  password: e331a935-0d10-3445-99bf-6f6d7c52153a
-  port: 22741
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: dufu.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 0|🇺🇸6 |  2.3MB/s
-  password: e331a935-0d10-3445-99bf-6f6d7c52153a
-  port: 20296
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z296.hongkongnode.top
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|🇰🇷1 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.201.54.89
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸7 |  4.0MB/s
-  password: 483DD6BF-E02D-48A9-83D7-09B9313B49AD
-  port: 31103
-  server: free-relay.themars.top
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|🇺🇸9 |  5.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 44.247.247.209
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 0,13|🇯🇵 日本|@ripaojiedian
-  port: 29206
-  server: gzhmbkqt.xn--fiqs8sjz2bull.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: fb6d6c7b-79ae-4ea5-aea1-b50cc0267552
-- cipher: aes-256-cfb
-  name: 0|🇬🇧1 |  2.9MB/s
-  obfs: plain
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  protocol: origin
-  server: 62.100.205.48
-  type: ssr
-- cipher: aes-256-cfb
-  name: 0|🇺🇸18 |  5.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.200.186.111
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇺🇸19 |  4.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.208.31.71
-  type: ss
-- allowInsecure: ''
-  name: 0|🇺🇸20 |  5.8MB/s
-  network: ws
-  password: 6040a753-e35b-4384-8713-96f3c639b621
-  port: 443
-  server: 172.67.200.238
-  skip-cert-verify: false
-  sni: uK803.890689.Xyz
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: uk803.890689.xyz
-    path: /WxWOWO1YA9bs2HOmaeWimvT3
-- alterId: 0
-  cipher: auto
-  name: 0|🇬🇧3 |  3.3MB/s
-  network: ws
-  port: 25240
-  server: cm.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-headers:
-    Host: cm.awslcn.info
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇫🇷8 |  5.6MB/s
-  network: ws
-  port: 443
-  server: 172.67.220.10
-  servername: linja05.hwcar.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
-  ws-opts:
-    headers:
-      Host: linja05.hwcar.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 0|🌀6-MY |  5.8MB/s
-  network: ws
-  port: 25228
-  server: cm.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-headers:
-    Host: cm.awslcn.info
-  ws-path: /
-- cipher: aes-256-cfb
-  name: 0|🇺🇸23 |  2.9MB/s
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 34.209.118.169
-  type: ssr
-- cipher: aes-256-cfb
-  name: 0|🇸🇬5 |  3.6MB/s
-  obfs: tls1.2_ticket_auth
-  obfs-param: sg2-cdn-route.couldflare-cdn.com
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 0|🌀7-TH |  3.8MB/s
-  network: ws
-  port: 25289
-  server: cm.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-headers:
-    Host: cm.awslcn.info
-  ws-path: /
-- cipher: aes-256-cfb
-  name: 0|🇺🇸24 |  5.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.37.220.218
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇯🇵10 |  5.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.199.64.156
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 0|🌀11-GR |  4.4MB/s
-  network: ws
-  port: 25242
-  server: hk1.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-headers:
-    Host: hk1.awslcn.info
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵11 |  3.9MB/s
-  network: ws
-  port: 25279
-  server: cu.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-headers:
-    Host: cu.awslcn.info
-  ws-path: /
-- name: 0|🇺🇸25 |  3.0MB/s
+      Host: 16.mamamajd.site
+    path: /
+- name: 0|🇺🇸1 |  1.4MB/s
   password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
   port: 20098
   server: 111.62.241.211
   skip-cert-verify: true
   sni: 18.p5zqtpj2n7.xyz
   type: trojan
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 0|🇬🇧5 |  4.2MB/s
+  name: 0|🇩🇪2 |  5.0MB/s
   network: ws
-  port: 25240
-  server: cm1.awslcn.info
+  port: 23618
+  server: 18.mamamajd.site
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-headers:
-    Host: cm1.awslcn.info
-  ws-path: /
-- allowInsecure: ''
-  name: 0|🇺🇸27 |  1.4MB/s
-  network: ws
-  password: 6040a753-e35b-4384-8713-96f3c639b621
+  udp: true
+  uuid: 0a14d5c0-f566-314c-9e22-7db5655c35de
+  ws-opts:
+    headers:
+      Host: 18.mamamajd.site
+    path: /
+- cipher: aes-256-cfb
+  name: 0|🇸🇬2 |  6.1MB/s
+  password: amazonskr05
   port: 443
-  server: 172.67.204.22
+  server: 13.213.69.248
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇺🇸3 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.88.180.184
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 0|🇬🇧2 |  5.2MB/s
+  network: ws
+  port: 23605
+  server: 5.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0a14d5c0-f566-314c-9e22-7db5655c35de
+  ws-opts:
+    headers:
+      Host: 5.mamamajd.site
+    path: /
+- cipher: aes-256-cfb
+  name: 0|🇰🇷4 |  5.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.38.92.181
+  type: ss
+- allowInsecure: ''
+  name: 0|🇺🇸7 |  1.4MB/s
+  network: ws
+  password: d67cfeaf-b277-44ac-ab99-9dd02a7c5299
+  port: 443
+  server: 172.67.159.56
   skip-cert-verify: false
-  sni: kju84.890602.XYZ
+  sni: Fgh9JkR5.890617.xYz
   tls: true
   type: trojan
   ws-opts:
     headers:
-      Host: kju84.890602.xyz
-    path: /WxWOWO1YA9bs2HOmaeWimvT3
+      Host: fgh9jkr5.890617.xyz
+    path: /lWljHWvIMOj85lz42MdhsCLV
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇬🇧3 |  1.2MB/s
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 11006
+  server: 183.232.229.164
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 0|🇬🇧4 |  4.6MB/s
+  network: ws
+  port: 23613
+  server: 13.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0a14d5c0-f566-314c-9e22-7db5655c35de
+  ws-opts:
+    headers:
+      Host: 13.mamamajd.site
+    path: /
 - cipher: aes-256-cfb
-  name: 0|🇯🇵12 |  1.0MB/s
+  name: 0|🇺🇸10 |  5.4MB/s
   password: amazonskr05
   port: 443
-  server: 52.195.209.247
+  server: 34.208.31.71
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇺🇸11 |  5.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.220.99.226
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇺🇸12 |  5.8MB/s
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 34.209.118.169
+  type: ssr
+- cipher: aes-256-gcm
+  name: 0|🌀5- |  6.1MB/s
+  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+  port: 21115
+  server: okanc.node-is.green
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇺🇸15 |  2.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.245.10.2
   type: ss
 - alterId: 0
   cipher: auto
-  name: 0|🇫🇷10 |  5.4MB/s
+  name: 0|🇸🇬3 |  5.4MB/s
+  network: tcp
+  port: 3683
+  server: 1896594d-su2dc0-sv85jh-dcdv.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: 1659deda-0625-11f0-8002-f23c93141fad
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰8 |  5.9MB/s
   network: ws
   port: 443
   raw:
-    add: 172.67.220.83
+    add: hknbyivfffj.site
     aid: '0'
     alpn: ''
     fp: ''
-    host: linja05.hwcar.sbs
-    id: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
+    host: hknbyivfffj.site
+    id: d13fc2f5-3e05-4795-81eb-44143a09e552
     net: ws
-    path: /linkws
+    path: /rbqqvws
     port: 443
-    ps: 🇺🇸 US_437
+    ps: 🇺🇸 US_440
     scy: ''
     sni: ''
     tls: tls
     type: ''
     v: '2'
-  server: 172.67.220.83
-  servername: linja05.hwcar.sbs
-  skip-cert-verify: false
+  server: hknbyivfffj.site
+  servername: hknbyivfffj.site
   tls: true
   type: vmess
-  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   ws-opts:
     headers:
-      Host: linja05.hwcar.sbs
-    path: /linkws
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸30 |  4.0MB/s
-  password: 483DD6BF-E02D-48A9-83D7-09B9313B49AD
-  port: 31104
-  server: free-relay.themars.top
-  type: ss
-  udp: true
-- alterId: 0
+      Host: hknbyivfffj.site
+    path: /rbqqvws
+- alterId: 2
   cipher: auto
-  name: 0|🇯🇵14 |  4.5MB/s
+  name: 0|🇹🇼1 |  1.7MB/s
   network: ws
-  port: 3774
-  server: v9.emovpn.buzz
+  port: 23619
+  server: 19.mamamajd.site
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 6db95bbc-c7a1-4b3f-9346-df71f4d95350
+  udp: true
+  uuid: 0a14d5c0-f566-314c-9e22-7db5655c35de
   ws-opts:
     headers:
-      Host: v9.emovpn.buzz
+      Host: 19.mamamajd.site
     path: /
-- alterId: 0
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  alterId: 0
   cipher: auto
-  name: 0|🌀16-MY |  1.8MB/s
+  name: 0|🇦🇪1 |  4.6MB/s
   network: ws
-  port: 25258
-  server: cm1.awslcn.info
-  skip-cert-verify: true
-  tls: false
+  port: 443
+  raw:
+    add: www.speedtest.net
+    aid: '0'
+    alpn: h3,h2,http/1.1
+    fp: chrome
+    host: uae.uploadsho.com
+    id: b6dd00ca-ca0e-452d-802d-0a3b951a465c
+    net: ws
+    path: /upload/?ed=2560
+    port: '443'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: uae.uploadsho.com
+    tls: tls
+    type: '---'
+    v: '2'
+  server: www.speedtest.net
+  servername: uae.uploadsho.com
+  tls: true
   type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-headers:
-    Host: cm1.awslcn.info
-  ws-path: /
+  uuid: b6dd00ca-ca0e-452d-802d-0a3b951a465c
+  ws-opts:
+    headers:
+      Host: uae.uploadsho.com
+    path: /upload/?ed=2560
 - alterId: 0
   cipher: auto
-  name: 0,14|日本|@ripaojiedian
+  name: 0|🇸🇬4 |  1.9MB/s
   network: tcp
-  port: '29206'
-  server: gzhmbkqt.xn--fiqs8sjz2bull.com
-  servername: ''
+  port: 4135
+  server: 28e38e7c-su2dc0-sv85jh-dcdv.d.volczijie.com
   tls: false
   type: vmess
-  uuid: fb6d6c7b-79ae-4ea5-aea1-b50cc0267552
+  uuid: 1659deda-0625-11f0-8002-f23c93141fad
 - alterId: 0
   cipher: auto
-  name: 0|🌀17-MY |  2.9MB/s
+  name: 0|🇷🇺4 |  1.4MB/s
   network: ws
-  port: 25258
-  server: cm.awslcn.info
-  skip-cert-verify: true
+  port: 23037
+  server: 195.133.5.127
   tls: false
   type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-headers:
-    Host: cm.awslcn.info
-  ws-path: /
-- name: 0|🇺🇸33 |  1.2MB/s
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20091
-  server: 111.62.241.211
-  skip-cert-verify: true
-  sni: 11.p5zqtpj2n7.xyz
-  type: trojan
+  udp: true
+  uuid: aa2f3828-0fb8-40f1-a645-01fa319c6237
+  ws-opts:
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵17 |  6.1MB/s
-  password: BFD35F45-24F6-4C80-BED0-81A6FB018DC6
-  port: 31100
-  server: free-relay.themars.top
+  ip-version: dual
+  name: 0|🌀11-IL |  1.2MB/s
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 12359
+  server: 183.232.229.164
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰4 |  1.6MB/s
+  network: tcp
+  port: 4138
+  server: 82ba1c75-su2dc0-sv85jh-dcdv.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 1659deda-0625-11f0-8002-f23c93141fad
+- alterId: 0
+  cipher: auto
+  name: 0|🇸🇬5 |  5.9MB/s
+  network: tcp
+  port: 3683
+  server: b953fc54-su2dc0-sv9ymy-dezg.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: 952f0a9a-097d-11f0-aa52-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 0|🇯🇵4 |  1.7MB/s
+  network: tcp
+  port: 4151
+  server: 82ba1c75-su2dc0-sv85jh-dcdv.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 1659deda-0625-11f0-8002-f23c93141fad
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰11 |  2.7MB/s
+  network: tcp
+  port: 4138
+  server: e4928977-su2dc0-sv9ymy-dezg.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 952f0a9a-097d-11f0-aa52-f23c93136cb3
+- name: 0|🇺🇸26 |  2.7MB/s
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: japan.com
+  skip-cert-verify: false
+  sni: zamim340.ggff.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zamim340.ggff.net
+    path: /tr?ed=2560
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
@@ -414,6 +366,16 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 13|🇯🇵 日本|@ripaojiedian
+  port: 29206
+  server: gzhmbkqt.xn--fiqs8sjz2bull.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: fb6d6c7b-79ae-4ea5-aea1-b50cc0267552
+- alterId: 0
+  cipher: auto
   name: 13,14|美国|@ripaojiedian
   network: ws
   port: '8136'
@@ -449,6 +411,16 @@ proxies:
   server: 18.181.194.77
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|日本|@ripaojiedian
+  network: tcp
+  port: '29206'
+  server: gzhmbkqt.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fb6d6c7b-79ae-4ea5-aea1-b50cc0267552
 - alterId: 0
   cipher: auto
   name: 14|香港A|@ripaojiedian
