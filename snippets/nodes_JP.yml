@@ -71,9 +71,13 @@ proxies:
   server: 54.254.9.107
   tfo: false
   type: ss
-- name: 14|日本6|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  name: 14|日本4|@ripaojiedian
   network: tcp
-  password: '!!str 74260700211203800'
-  port: 443
-  server: possible-tiger.shiner427.skin
-  type: trojan
+  port: '4151'
+  server: 36fed4c6-sumqo0-swo13r-3im.c.volczijie.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 647b46f6-2ba4-11ee-af1f-f23c93136cb3
