@@ -1,4 +1,10 @@
 proxies:
+- cipher: rc4-md5
+  name: 0|🇹🇼2 |  4.0MB/s
+  password: z6D4Jf
+  port: 25245
+  server: 118.184.136.138
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 13|🇹🇼 台湾|@ripaojiedian

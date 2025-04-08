@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇰🇷1 |  1.1MB/s
+  name: 0|🇰🇷1 |  1.9MB/s
   network: ws
   port: 2083
   server: 104.26.5.157
@@ -16,7 +16,7 @@ proxies:
       Host: 23-lsjfjwiposkfls.hc2021.cfd
     path: /
 - client-fingerprint: chrome
-  name: 0|🇰🇷2 |  1.1MB/s
+  name: 0|🇰🇷2 |  1.3MB/s
   network: ws
   port: 80
   server: 45.131.4.33
@@ -30,7 +30,23 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇰🇷3 |  1.2MB/s
+  name: 0|🇰🇷3 |  2.0MB/s
+  network: ws
+  port: 2083
+  server: 172.67.75.52
+  servername: 23-lsjfjwiposkfls.hc2021.cfd
+  tls: true
+  type: vless
+  udp: false
+  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
+  ws-opts:
+    headers:
+      Host: 23-lsjfjwiposkfls.hc2021.cfd
+    path: /
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇰🇷4 |  1.3MB/s
   network: ws
   port: 2083
   server: 104.26.4.157
