@@ -1,85 +1,22 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇹🇼1 |  1.6MB/s
-  network: tcp
-  port: 34313
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: gateway.icloud.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0,15|CN_speednode_0007
-  network: tcp
-  port: 47531
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: gateway.icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0,15|CN_speednode_0010
-  network: tcp
-  port: 13263
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: gateway.icloud.com
+- alterId: 2
+  cipher: auto
+  name: 0|🇹🇼1 |  4.1MB/s
+  network: ws
+  port: 23619
+  server: 19.mamamajd.site
   skip-cert-verify: true
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  uuid: 26bc8681-0318-3097-bc64-64ab051eb81a
+  ws-opts:
+    headers:
+      Host: 19.mamamajd.site
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,15|CN_speednode_0008
-  network: tcp
-  port: 37809
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇹🇼5 |  4.4MB/s
-  network: tcp
-  port: 15823
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇹🇼6 |  6.2MB/s
-  network: tcp
-  port: 15700
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇹🇼7 |  5.1MB/s
+  name: 0|🇹🇼2 |  6.2MB/s
   network: tcp
   port: 12477
   reality-opts:
@@ -89,16 +26,18 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- allowInsecure: ''
-  name: 0|🇹🇼8 |  4.2MB/s
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇹🇼3 |  4.6MB/s
   network: tcp
-  password: c3f13957-9155-4a0d-b5db-e318dff63b1f
-  port: 27201
-  server: 45.146.232.173
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
+  port: 15823
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.yahoo.com
   tls: true
-  type: trojan
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
