@@ -2995,16 +2995,23 @@ proxies:
     headers:
       Host: vt-bana2-cn-11.ghpgwqswodgzv.com
     path: '%2Fdl_media'
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 14|香港6|@ripaojiedian
+  name: 14|香港5|@ripaojiedian
   network: tcp
-  port: '42375'
-  server: 120.198.71.214
+  port: '59082'
+  server: 120.232.153.40
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 14|香港6|@ripaojiedian
+  network: tcp
+  password: 799964a2-2a62-4b62-93a9-1f9ab4e87eb8
+  port: 27101
+  server: 58.254.186.222
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 14|台湾|@ripaojiedian
@@ -3015,6 +3022,27 @@ proxies:
   tls: false
   type: vmess
   uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
+- name: 14|台湾2|@ripaojiedian
+  network: tcp
+  password: a35b44a9-d941-4c1d-96ac-7a9f6607edb7
+  port: 27201
+  server: 58.254.186.222
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 14|日本3|@ripaojiedian
+  network: ws
+  port: '35246'
+  server: jp6.vip2.g2.moonbase.life
+  servername: web.xcjs.info
+  tls: true
+  type: vmess
+  uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
+  ws-opts:
+    headers:
+      Host: web.xcjs.info
+    path: /home
 - alterId: 0
   cipher: auto
   name: 14|日本5|@ripaojiedian
@@ -3025,6 +3053,41 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
+- name: 14|日本4|@ripaojiedian
+  network: ws
+  password: ouo
+  port: 443
+  server: 18.183.158.211
+  sni: tr.koxok.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tr.koxok.us.kg
+    path: '%2F%3Fed%3D2560'
+- alterId: 0
+  cipher: auto
+  name: 14|日本6|@ripaojiedian
+  network: ws
+  port: '35216'
+  server: jp6.g2.moonbase.life
+  servername: web.xcjs.info
+  tls: true
+  type: vmess
+  uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
+  ws-opts:
+    headers:
+      Host: web.xcjs.info
+    path: /home
+- alterId: 0
+  cipher: auto
+  name: 14|新加坡2|@ripaojiedian
+  network: tcp
+  port: '11060'
+  server: 43.156.102.65
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5cdd371e-cc4e-4ea2-91a8-c755f00f67a0
 - alterId: 0
   cipher: auto
   name: 14|美国|@ripaojiedian
