@@ -31,20 +31,3 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13,14|韩国2|@ripaojiedian
-  network: tcp
-  password: 85f133142f04dbf6547da33895cfabb3
-  port: 39001
-  server: 203.156.253.12
-  skip-cert-verify: true
-  sni: www.yrtok.com
-  type: trojan
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 13|🇰🇷 韩国|@ripaojiedian
-  password: dwz1GtF7
-  port: 20406
-  server: 112.54.161.141
-  tfo: false
-  type: ss
