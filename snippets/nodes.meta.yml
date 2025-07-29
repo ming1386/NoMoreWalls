@@ -2190,33 +2190,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '8|v2raybluecrystal2 #4'
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: o753T2a9zD
-  port: 18865
-  server: v2raybluecrystal3.3dfigures.ir
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '8|v2raybluecrystal #4'
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: o753T2a9zD
-  port: 20675
-  server: v2raybluecrystal3.3dfigures.ir
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '8|v2raybluecrystal3 #4'
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: o753T2a9zD
-  port: 50757
-  server: v2raybluecrystal3.3dfigures.ir
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: '8|Telegram@vmessorg #2'
   password: yoP8tOtEhMTSBUPY9LwnHABvFE
   port: 14933
