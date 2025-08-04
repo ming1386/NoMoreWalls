@@ -1807,22 +1807,6 @@ proxies:
   sni: www.google.com
   tls: false
   type: hysteria2
-- name: 8|@v2ray_configs_pool
-  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
-  port: 443
-  server: 153.121.42.218
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: '8|@v2ray_configs_pool #1'
-  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
-  port: 443
-  server: 45.11.1.62
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
 - name: 8|@Daily_Configs
   password: 68821a5b-49db-49c7-924f-22b1441e5b30
   port: 443
@@ -1912,15 +1896,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '8|@v2ray_configs_pool #2'
-  password: cc83a02b-90ea-403b-9c76-27e4be95f637
-  port: 50256
-  server: 154.204.181.230
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 8|All-24
+- name: 8|@meli_proxyy
   password: cf125f42-759d-4112-82c3-014d2ffcb1e7
   port: 1443
   server: 185.85.242.177
@@ -1993,17 +1969,10 @@ proxies:
   sni: www.google.com
   tls: false
   type: hysteria2
-- name: '8|@v2ray_configs_pool #3'
+- name: '8|@meli_proxyy #1'
   password: kWlrCka5jzfKbD2z7ucwANEdZM
   port: 26404
   server: 47.245.53.59
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '8|@v2ray_configs_pool #4'
-  password: wl4HYN9PPKs8d8IzGIt4yKqt0
-  port: 53348
-  server: 47.74.34.102
   skip-cert-verify: true
   tls: false
   type: hysteria2
