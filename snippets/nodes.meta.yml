@@ -172,7 +172,7 @@ proxies:
   sni: hsmg.huasuan666.top
   tls: false
   type: hysteria2
-- name: 7|⏰46@oneclickvpnkeys
+- name: 7,8|sia
   password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28
   port: 31468
   server: 77.223.214.193
@@ -532,15 +532,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 8|rya
-  password: dongtaiwang.com
-  port: 5355
-  server: 51.159.111.32
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 8|🇬@FreakConfig
+- name: 8|@FreakConfig
   password: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099
   port: 43057
   server: 203.174.82.145
