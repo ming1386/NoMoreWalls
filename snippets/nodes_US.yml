@@ -21,11 +21,31 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|美国4|@ripaojiedian
-  network: tcp
+  name: 13|🇺🇸 美国4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
   port: 3294
   server: 160.16.72.33
   skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 14|美国|@ripaojiedian
+  network: ws
+  port: '41317'
+  server: a.lyazzz.online
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c76b20d5-7f82-4990-9687-4bde24397493
+  ws-opts:
+    headers:
+      Host: img14.360buyimg.com
+    path: /obj
+- name: 14|美国4|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 3296
+  server: 160.16.117.182
   sni: www.nintendogames.net
   type: trojan
