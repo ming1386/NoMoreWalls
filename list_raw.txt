@@ -43,4 +43,4 @@ vless://12cb9911-a48d-4147-85cc-68dd678e94c6@64.188.64.59:443?allowInsecure=0&sn
 vless://b183589d-5e32-4141-a39a-6cb747964c67@pl2.jugsenkeys4pays.su:443?allowInsecure=0&sni=pl2.jugsenkeys4pays.su&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#15%7CUS_speednode_0015
 https://ItQzQW.mcsslk.xyz/c99fa3cf32aafe74cd0a88369116a433
 hhysteria2://Yet-Another-Public-Config-1@206.71.158.37:35000?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1&sni=YAPC-1.afshin.ir#@V2rayNG3
-https://kOLcm2.absslk.xyz/2f13d0e5049f2ba00fb831f935080868
+https://CCko8F.absslk.xyz/ed586a166bca32dc14773d411580d17a
