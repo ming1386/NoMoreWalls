@@ -52,4 +52,4 @@ vless://0058c215-ab1e-400c-a403-b5b2fda7e846@speedtest.net:80?allowInsecure=0&sn
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.130.219:80?allowInsecure=0&sni=max-gb1.global.ssl.fastly.net&type=ws&host=max-gb1.global.ssl.fastly.net&path=/#15%7CUS_speednode_0072
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.194.219:80?allowInsecure=0&sni=max-gb1.global.ssl.fastly.net&type=ws&host=max-gb1.global.ssl.fastly.net&path=/#15%7CUS_speednode_0073
 hhysteria2://0dd50f72-bf39-4b59-b183-61b3fa52df57@46.254.18.107:443?security=tls&insecure=0&sni=newlte.kihsuyhf8jkiugsxb.cfd#@vmesskhodam
-https://iNFn2B.absslk.xyz/a14b1aa430dec54967d3da417707eb5b
+https://Z6jpKT.absslk.xyz/0ea41aa15787681f2bb05ca083c37438
