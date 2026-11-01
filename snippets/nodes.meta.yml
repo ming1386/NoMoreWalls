@@ -1,16 +1,4 @@
 proxies:
-- alpn:
-  - h3
-  name: 8|@FXxNET⚡️
-  obfs: salamander
-  obfs-password: litevpn
-  password: 59018379-d5df-4314-ab23-df0e838d7953
-  port: 443
-  server: 198.13.140.193
-  skip-cert-verify: false
-  sni: efa11.lumariqis.com
-  tls: false
-  type: hysteria2
 - name: 8|Telegram:@v2rayng3
   obfs: salamander
   obfs-password: uw9b2qq5rx
